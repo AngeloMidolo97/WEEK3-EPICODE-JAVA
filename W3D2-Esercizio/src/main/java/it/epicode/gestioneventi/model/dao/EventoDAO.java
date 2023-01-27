@@ -7,6 +7,7 @@ import it.epicode.gestioneventi.model.TipoEvento;
 import it.epicode.gestioneventi.utils.JpaUtil;
 
 public class EventoDAO {
+	
 	public static void save(String titolo, LocalDate dataEvento, String descrizione, TipoEvento tipoEvento,
 			int numeroMassimoPartecipanti) {
 		try {
